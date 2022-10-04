@@ -4,7 +4,7 @@
 -3 -> нет
 7 -> нет*/
 
-CConsole.WriteLine("Введите  число  ");
+Console.WriteLine("Введите  число  ");
 string number = Console.ReadLine();
 int result = int.Parse(number);
 
