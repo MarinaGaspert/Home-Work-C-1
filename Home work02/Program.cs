@@ -4,13 +4,13 @@
 44 5 78 -> 78
 22 3 9 -> 22*/
 
-Console.WriteLine("Введите первое число");
+Console.WriteLine("Введите первое число  ");
 int numberA = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите второе число");
+Console.WriteLine("Введите первое число  ");
 int numberB = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите третье  число");
+Console.WriteLine("Введите первое число  ");
 int numberC = int.Parse(Console.ReadLine());
 
 
@@ -20,7 +20,7 @@ if (numberB < numberA && numberA> numberC)
 }
 else
 
-  if (numberA < numberB && numberB> numberC)
+if (numberA < numberB && numberB> numberC)
 {
    Console.WriteLine($"max = {numberB}");
 }
