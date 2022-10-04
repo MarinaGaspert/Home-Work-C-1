@@ -4,56 +4,15 @@
 -3 -> нет
 7 -> нет*/
 
-  using System;
- 
-using System.Collections.Generic;
- 
-using System.Linq;
- 
-using System.Text;
- 
- 
- 
-namespace check1
- 
-{
- 
-    class Program
- 
-    {
- 
-        static void Main(string[] args)
- 
-        {
- 
-            int i;
- 
-            Console.Write("Введите число : ");
- 
-            i = int.Parse(Console.ReadLine());
- 
-            if (i % 2 == 0)
- 
+    Console.WriteLine("Введите число:");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            if (num % 2 == 1)
             {
- 
-                Console.Write("Введенное число является четным");
- 
-                Console.Read();
- 
+                Console.WriteLine($"Число "num" является: НЕЧЁТНЫМ");
             }
- 
             else
- 
             {
- 
-                Console.Write("Введенное число нечетное");
- 
-                Console.Read();
- 
+                Console.WriteLine($"Число "num" является: ЧЁТНЫМ");
             }
- 
-        }
- 
-    }
- 
-}
+         

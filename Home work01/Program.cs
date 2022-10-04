@@ -4,21 +4,16 @@ a = 5; b = 7 -> max = 7
 a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3 */
 
-Console.WriteLine("Введите первое число");
-int numberA = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите первое число ");
+string numberA = Console.ReadLine();
+Console.WriteLine("Введитe второе число ");
+string numberB = Console.ReadLine();
+int numA = int.Parse( numberA);
+int numB = int.Parse( numberB);
 
-
-Console.WriteLine("Введитe второе число");
-int numberB = int.Parse(Console.ReadLine());
-
-
-
-if (numberA>numberB)
-{
+if (numA>numB)
    Console.WriteLine($"max = {numberA}");
-}
 else
-
    Console.WriteLine($"max = {numberB}"); 
 
 
